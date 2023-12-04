@@ -3,10 +3,10 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("10"); //Надання значення довжини прямокутника
+        Console.WriteLine("Введіть довжину прямокутиника:"); //Надання значення довжини прямокутника
         double lenght = double.Parse(Console.ReadLine());
 
-        Console.WriteLine("20"); //Надання значення ширини прямокутника
+        Console.WriteLine("Введіть ширину прямокутника: "); //Надання значення ширини прямокутника
         double width = double.Parse(Console.ReadLine());
 
         double area = lenght + width;
